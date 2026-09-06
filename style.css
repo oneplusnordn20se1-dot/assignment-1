@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: auto;
-    
+
 }
 
 
@@ -75,78 +75,228 @@
 
 /* banner section */
 
-.banner{
-background-image: url(../images/banner.jpg);
-width: 100%;
-height: 100%;
-background-position: center;
-background-size: cover;
-min-height: 786px;
-display: flex;
-flex-direction: column;
-text-align: center;
+.banner {
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 786px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 
-.banner-text{
+.banner-text {
     color: white;
     font-family: "inter";
     font-size: 35px;
     align-items: center;
-   
-    
+
+
 
 }
 
-.italic-text{
+.italic-text {
     font-style: italic;
     font-weight: bold;
 }
 
-.banner-p-text{
-font-size: 22px;
-font-weight: normal;
-color: #e1e1e1;
-padding: 0 25%;
-margin-top: 20px;
+.banner-p-text {
+    font-size: 22px;
+    font-weight: normal;
+    color: #e1e1e1;
+    padding: 0 25%;
+    margin-top: 20px;
 }
 
 
 
-.banner-button{
+.banner-button {
     width: 282px;
     height: 78px;
     padding: 12px;
     font-size: 24px;
     margin-top: 75%;
-    
+
 }
 
 /* meet the speaker section */
 
-.meet-the-speakers-h1{
+.meet-the-speakers-h1 {
     text-align: center;
     font-family: "inter";
     font-weight: bold;
-    margin-top: 70px ;
+    margin-top: 70px;
     font-size: 65px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-.meet-the-speakers{
+.meet-the-speakers {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    padding:0px 70px;
+    justify-content: space-evenly;
 }
 
-.card{
-    
-    border:solid 1px;
-    border-radius: 20px;
-   
+.card {
+
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    margin-top: 50px;
+
+
+}
+
+.card-text {
+    padding: 24px;
+
+}
+
+.card-text-p1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #2563EB;
+    font-family: "inter";
+    /* margin-top: 5px; */
+
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    font-family: "inter";
+    margin: 10px 0;
+
+}
+
+.card-text-p2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #575757;
+    font-family: "inter";
+    margin-top: 5px;
+
+}
+
+
+/* pricing section */
+.pricing-section{
+    font-family: "inter";
+    margin-top: 170px;
+}
+
+.pricing-h1 {
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: center;
     
 }
 
-.card-text{
-    padding: 10px;
+.pricing-span-p1 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #575757;
+    text-align: center;
+    margin:0;
+
+
+}
+
+.pricing-card-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+    align-items: left;
+    text-align: left;
+    margin-top:50px;
+
+}
+
+.pricing-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    width: 370px;
+    height: 444px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+
+}
+
+.pricing-card-header {
+    font-size: 20px;
+    color: #0D1B2A;
+display: flex;
+flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 8px;
+    align-items: left;
+
+}
+
+.pricing-card-header h1 {
+    margin-top: 8px;
+}
+
+
+.pricing-card-p2 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #575757;
+    margin-top: 4px;
+}
+
+.pricing-card-p1 {
+    font-size: 15px;
+    font-weight: medium;
+    color: #888888;
+
+}
+
+
+
+.pricing-card-pro {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.pricing-card-pro h1 {
+    color: white;
+}
+
+.pricing-card-p1-pro {
+    color: #93C5FD;
+    font-size: 15px;
+}
+
+hr {
+    width: 100%;
+    text-align: center;
+    height: 2px;
+    margin-left: 0;
+    opacity: 0.1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+
+.pricing-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: flex-start;
+
 }
