@@ -253,6 +253,7 @@
 
 .pricing-card-header h1 {
     margin-top: 8px;
+    font-size: 45px;
 }
 
 
@@ -296,18 +297,39 @@ hr {
     margin-bottom: 10px;
 }
 
-li {
-    margin: 10px;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;    
+    margin: 0;
+    text-align: left;     
 }
 
+ul li {
+    margin-bottom: 12px;  
+    text-align: left;    
+}
 
 .pricing-card-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: flex-start;
-
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
 }
+
+.pro-body{
+    color: #c8c5c5;
+}
+
+
+.pricing-card-button{
+margin-top: 20px;
+font-family: "inter";
+font-weight: bold;
+font-size: 12px;
+}
+
 
 .section-break {
     display: flex;
